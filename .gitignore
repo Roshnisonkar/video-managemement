@@ -4,3 +4,13 @@ node_modules/
 # Build output
 build/
 dist/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Keep the example file in Git
+!.env.example
